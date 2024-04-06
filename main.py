@@ -1,5 +1,5 @@
-from bmi_calculator import calculate_bmi
-from bmi_category import categorize_bmi
+from app.bmi_calculator.calculator import calculate_bmi
+from app.bmi_calculator.categorizor import categorize_bmi
 
 def main():
     while True:
