@@ -8,6 +8,7 @@ addons:
 before_install:
   - wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
   - git remote add heroku https://git.heroku.com/bmi-calculator-heston.git
+  - export PYTHONPATH=$PYTHONPATH:$(pwd)
 
 install:
   - pip install -r requirements.txt
