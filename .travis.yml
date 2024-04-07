@@ -21,6 +21,6 @@ script:
 deploy:
   provider: script
   script: bash deploy_heroku.sh
-  skip_cleanup: true
+  cleanup: false
   on:
     branch: main

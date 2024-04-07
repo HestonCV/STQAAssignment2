@@ -1,5 +1,5 @@
 import unittest
-from app.bmi_calculator.calculator import calculate_bmi
+from bmi_calculator.calculator import calculate_bmi
 
 class TestBMICalculator(unittest.TestCase):
     def test_calculate_bmi_normal_weight(self):

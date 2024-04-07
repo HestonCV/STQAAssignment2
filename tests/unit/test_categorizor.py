@@ -1,5 +1,5 @@
 import unittest
-from app.bmi_calculator.categorizor import categorize_bmi
+from bmi_calculator.categorizor import categorize_bmi
 
 class TestBMICategorizer(unittest.TestCase):
     def test_categorize_bmi_underweight_boundary(self):
