@@ -1,9 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 
-try:
-    from app.bmi_calculator import calculate_bmi, categorize_bmi
-except ImportError:
-    from bmi_calculator import calculate_bmi, categorize_bmi
+from bmi_calculator import calculate_bmi, categorize_bmi
+
 
 app = Flask(__name__)
 
