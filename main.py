@@ -1,3 +1,5 @@
+# This is the script for assignement 2. Not used in assignment 3.
+
 from app.bmi_calculator.calculator import calculate_bmi
 from app.bmi_calculator.categorizor import categorize_bmi
 

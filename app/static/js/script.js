@@ -1,6 +1,6 @@
-// static/js/script.js
+
 document.getElementById('bmiForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // Prevent the default form submission
+    e.preventDefault();
 
     const weight = document.getElementById('weight').value;
     const height = document.getElementById('height').value;
