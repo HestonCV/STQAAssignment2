@@ -5,9 +5,11 @@ from bmi_calculator import calculate_bmi, categorize_bmi
 
 app = Flask(__name__)
 
+
 @app.route('/', methods=['GET'])
 def home():
     return render_template('index.html')
+
 
 @app.route('/calculate', methods=['POST'])
 def calculate():

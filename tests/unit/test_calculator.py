@@ -1,6 +1,7 @@
 import unittest
 from bmi_calculator.calculator import calculate_bmi
 
+
 class TestBMICalculator(unittest.TestCase):
     def test_calculate_bmi_normal_weight(self):
         # Test case for normal weight
@@ -37,6 +38,7 @@ class TestBMICalculator(unittest.TestCase):
 
         actual_bmi = calculate_bmi(height, weight)
         self.assertAlmostEqual(actual_bmi, expected_bmi, places=2)
+
 
 if __name__ == '__main__':
     unittest.main()

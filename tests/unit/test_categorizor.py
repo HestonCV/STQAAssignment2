@@ -1,6 +1,7 @@
 import unittest
 from bmi_calculator.categorizor import categorize_bmi
 
+
 class TestBMICategorizer(unittest.TestCase):
     def test_categorize_bmi_underweight_boundary(self):
         bmi = 18.4  # Just below the lower boundary of Normal weight
@@ -28,6 +29,7 @@ class TestBMICategorizer(unittest.TestCase):
         bmi = 30.0  # On the lower boundary of Obese
         category = categorize_bmi(bmi)
         self.assertEqual(category, "Obese")
+
 
 if __name__ == '__main__':
     unittest.main()
