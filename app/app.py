@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from bmi_calculator import calculate_bmi, categorize_bmi
+from app.bmi_calculator import calculate_bmi, categorize_bmi
 
 app = Flask(__name__)
 
