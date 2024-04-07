@@ -13,3 +13,11 @@ before_script:
 
 script:
   - python -m pytest tests/
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_API_KEY
+  app: bmi-calculator-heston
+  on:
+    branch: main
