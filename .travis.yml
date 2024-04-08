@@ -3,8 +3,8 @@ python:
   - "3.9"
 
 env:
-global:
-  - COVERALLS_REPO_TOKEN=$COVERALLS_REPO_TOKEN
+  global:
+    - COVERALLS_REPO_TOKEN=$COVERALLS_REPO_TOKEN
 
 addons:
   chrome: stable
